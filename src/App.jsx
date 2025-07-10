@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './component/Navbar.jsx'
+import Section1 from './component/Section1.jsx'
+import Section2 from './component/Section2.jsx'
 function App() {
-  return (
-    <div className="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
+  return <>
       <Navbar></Navbar>
-    </div>
-  )
+      <Section1 />
+      <Section2 />
+  </>
 }
 
 export default App

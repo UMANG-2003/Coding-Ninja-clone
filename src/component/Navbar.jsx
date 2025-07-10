@@ -17,8 +17,8 @@ function Navbar() {
   return (
     <>
       {/* Navbar for larger screens */}
-      <nav className='bg-white h-18 w-full absolute top-0 left-0 z-10 max-md:hidden'>
-        <div className='flex justify-between items-center h-full px-60 mx-auto w-full relative'>
+      <nav className='bg-white h-18 w-full fixed top-0 left-0 z-10 max-md:hidden'>
+        <div className='flex justify-between items-center h-full mx-auto w-[70%] relative'>
           <img src="/new_cn_logo-29829.svg" alt="" />
           <ul className='flex gap-10 text-black font-semibold text-md'>
             <div
@@ -97,9 +97,9 @@ function Navbar() {
             </div>
           </ul>
           <div>
-            <div className='flex gap-2 items-center mx-10'>
+            <div className='flex gap-2 items-center '>
               <div className='px-3 py-2 rounded-lg border-[1px] border-black text-sm font-semibold'>My Classroom</div>
-              <div className='px-3 py-2 rounded-full bg-gray-200 text-sm font-semibold mx-5'><FontAwesomeIcon icon={faUser} /></div>
+              <div className='px-3 py-2 rounded-full bg-gray-200 text-sm font-semibold'><FontAwesomeIcon icon={faUser} /></div>
             </div>
           </div>
         </div>
