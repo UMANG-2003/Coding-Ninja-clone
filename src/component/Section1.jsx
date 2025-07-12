@@ -5,10 +5,10 @@ import React from "react";
 function Section1() {
 return (
     <div
-        className="absolute top-0 z-[-2] h-[180vh] max-md:h-[110vh] w-screen bg-[#18181b] bg-[radial-gradient(#ffffff33_1px,#18181b_1px)] bg-[size:30px_30px]"
+        className=" z-[-2] h-[180vh] max-md:h-[110vh] w-screen bg-[#18181b] bg-[radial-gradient(#ffffff33_1px,#18181b_1px)] bg-[size:30px_30px]"
     >
         <div>
-            <div className="flex flex-col items-center mt-37 h-screen">
+            <div className="flex flex-col items-center pt-37 h-screen">
                 <h2 className="text-2xl font-bold text-white mb-4 max-md:text-lg">
                     Restricted by opportunities?
                 </h2>
