@@ -281,7 +281,7 @@ function Section2() {
         </div>
       </div>
 
-      <div className="w-full h-[50vh] bg-white  flex flex-col p-10 max-md:p-4 max-md:h-auto max-md:top-[110vh]">
+      <div className="w-full h-[60vh] bg-white  flex flex-col p-10 max-md:p-4 max-md:h-auto max-md:top-[110vh]">
         <div className="ml-52 my-7 max-md:ml-0 max-md:text-center">
           <span className="text-xl font-bold text-black max-md:text-lg">
             New Launches
