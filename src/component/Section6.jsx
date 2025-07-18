@@ -5,16 +5,16 @@ const testimonials = [
     role: "Full Stack Developer",
     text: "From optometrist to IT pro, thanks to Coding Ninjas. Their lessons help me excel in projects. CN transformed my journey, giving me clarity and optimization skills!",
     company: "Cogent e Private ltd",
-    logo: "", // optional logo
+    logo: "", 
     imgBg: "bg-green-200",
-    image: "https://files.codingninjas.com/nttot_twisampati-33030.png", // replace with actual image
+    image: "https://files.codingninjas.com/nttot_twisampati-33030.png", 
   },
   {
     name: "Onkar Lapate",
     role: "SDE-1",
     text: "Chose Coding Ninjas for structured, high-quality learning due to lack of support & structure. Top-notch mentors, quick TAs, and a supportive community. Best decision ever.",
     company: "Bombay Softwares",
-    logo: "https://files.codingninjas.in/bombay-soft-21971.jpg", // replace with actual logo
+    logo: "https://files.codingninjas.in/bombay-soft-21971.jpg", 
     imgBg: "bg-blue-200",
     image: "https://files.codingninjas.com/omkar_nt-to-tech-32743.png",
   },
