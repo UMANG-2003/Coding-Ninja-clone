@@ -7,7 +7,8 @@ import Section4 from './component/Section4.jsx'
 import Section5 from './component/Section5.jsx'
 import Section6 from './component/Section6.jsx'
 import Section7 from './component/Section7.jsx'
-
+import Section8 from './component/Section8.jsx'
+import Section9 from './component/Section9.jsx'
 
 function App() {
   return <>
@@ -19,6 +20,8 @@ function App() {
       <Section5 />
       <Section6 />
       <Section7 />
+      <Section8 />
+      <Section9 />
   </>
 }
 
