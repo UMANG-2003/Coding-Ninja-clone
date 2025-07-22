@@ -1,12 +1,38 @@
-# React + Vite
+# 🧑‍💻 Coding Ninjas Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern **Coding Ninjas** clone built using **React.js** and **Tailwind CSS**. This project mimics the UI and basic functionality of the official Coding Ninjas platform, focused on learning paths, courses, and community interactions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔥 Responsive and modern UI (Tailwind CSS)
+- 🧭 Navigation bar with dropdowns
+- 🗂 Course listing page
+- 🎯 Home page with animated headline
+- 📱 Fully responsive for mobile, tablet, and desktop
+- ⚙️ Component-based architecture with reusable React components
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React.js](https://reactjs.org/) – Frontend library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [React Router](https://reactrouter.com/) – For navigation (optional)
+- [Framer Motion](https://www.framer.com/motion/) – Animations (optional)
+
+
+
+coding-ninjas-clone/
+├── public/
+│ └── index.html
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── tailwind.config.js
+└── package.json
+
+
+ <img width="1919" height="1079" alt="Screenshot 2025-07-22 172638" src="https://github.com/user-attachments/assets/5d13ca75-87f2-4568-af6d-b4d3d000d466" />
+
