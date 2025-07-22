@@ -15,8 +15,6 @@ A responsive and modern **Coding Ninjas** clone built using **React.js** and **T
 
 - [React.js](https://reactjs.org/) – Frontend library
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
-- [React Router](https://reactrouter.com/) – For navigation (optional)
-- [Framer Motion](https://www.framer.com/motion/) – Animations (optional)
 
 
 
@@ -32,6 +30,10 @@ coding-ninjas-clone/
 │ └── main.jsx
 ├── tailwind.config.js
 └── package.json
+
+
+
+
 
 
  <img width="1919" height="1079" alt="Screenshot 2025-07-22 172638" src="https://github.com/user-attachments/assets/5d13ca75-87f2-4568-af6d-b4d3d000d466" />
