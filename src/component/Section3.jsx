@@ -39,7 +39,7 @@ function Section3() {
     <>
       <div
         ref={sectionRef}
-        className="h-[300vh] bg-gray-900 flex flex-col items-center gap-40 text-white px-10 py-20"
+        className="h-auto min-h-screen bg-gray-900 flex flex-col items-center gap-20 md:gap-40 text-white px-4 md:px-10 py-10 md:py-20"
       >
         {[
           {
@@ -73,32 +73,31 @@ function Section3() {
         ].map((item, index) => (
           <div
             key={index}
-            className="card text-7xl flex flex-col items-center justify-center font-bold gap-4"
+            className="card text-3xl md:text-7xl flex flex-col items-center justify-center font-bold gap-2 md:gap-4 w-full max-w-md"
           >
             {item.img && (
               <img
-                className={`${item.bg} p-6 rounded-4xl`}
+                className={`${item.bg} p-4 md:p-6 rounded-3xl md:rounded-4xl w-20 h-20 md:w-32 md:h-32 object-contain`}
                 src={item.img}
                 alt=""
               />
             )}
             {item.title.map((line, i) => (
-              <p key={i}>{line}</p>
+              <p key={i} className="text-center">{line}</p>
             ))}
             {item.subtitle && (
-              <p className="text-2xl font-normal text-gray-400">
+              <p className="text-base md:text-2xl font-normal text-gray-400 text-center">
                 {item.subtitle}
               </p>
             )}
           </div>
         ))}
 
-        <button className="mt-4 px-6 py-3 bg-orange-500 text-white rounded hover:bg-orange-300 transition duration-300 font-bold cursor-pointer">
-        Explore Offerings{" "}
-        <FontAwesomeIcon icon={faArrowUp} className="ml-2" />
-      </button>
+        <button className="mt-4 px-4 md:px-6 py-2 md:py-3 bg-orange-500 text-white rounded hover:bg-orange-300 transition duration-300 font-bold cursor-pointer text-base md:text-lg flex items-center">
+          Explore Offerings{" "}
+          <FontAwesomeIcon icon={faArrowUp} className="ml-2" />
+        </button>
       </div>
-      
     </>
   );
 }

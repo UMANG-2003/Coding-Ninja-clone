@@ -9,7 +9,9 @@ import Section6 from './component/Section6.jsx'
 import Section7 from './component/Section7.jsx'
 import Section8 from './component/Section8.jsx'
 import Section9 from './component/Section9.jsx'
-
+import Section10 from './component/Section10.jsx'
+import Section11 from './component/Section11.jsx'
+import Footer from './component/Footer.jsx'
 function App() {
   return <>
       <Navbar></Navbar>
@@ -22,6 +24,11 @@ function App() {
       <Section7 />
       <Section8 />
       <Section9 />
+      <Section10 />
+      <Section11 />
+      <Footer />
+
+      {/* Footer component can be added here if needed */}
   </>
 }
 
